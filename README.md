@@ -1,7 +1,7 @@
 
 ### How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
 Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding technique [1]. 
-put the gif here
+
 
 ### Overview of two Methods:
 There are various techniques for separating trabecular from cortical bone using automated image processing that can be effective. One method, called the morphological escalator, is executed in a series of steps in the CTAn custom processing page. This method includes three phases: first, a "shrink-wrap" process to establish the bone boundary; second, an inverse thresholding to convert the medullary space into a binary image; and third, a series of morphological operations known as the "morphological escalator" to further refine the image.
