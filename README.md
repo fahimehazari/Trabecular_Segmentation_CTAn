@@ -1,4 +1,4 @@
-<div style="text-align: justify">
+
 # How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
 Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding technique [1]. 
 put the gif here
@@ -36,4 +36,3 @@ You can replicate the same protocol as the morphological escalator Method in CTA
 [1] Buie, Helen R., et al. "Automatic segmentation of cortical and trabecular compartments based on a dual threshold technique for in vivo micro-CT bone analysis." Bone 41.4 (2007): 505-515.
 <br>
 [2] Mys, Karen, et al. "Quantification of bone microstructure in the wrist using cone-beam computed tomography." Bone 114 (2018): 206-214.
-</div>
