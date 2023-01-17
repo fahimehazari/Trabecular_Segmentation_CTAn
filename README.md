@@ -1,5 +1,6 @@
-How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
-Developed by Fahimeh Azari based on [morphological escalator](./Bruker-method%20note.pdf) and dual thresholding technique[1]. 
+<div style="text-align: justify">
+# How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
+Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding technique [1]. 
 put the gif here
 
 ### Overview of two Methods:
@@ -24,16 +25,15 @@ Custom processing task list to delineate the boundary of medullary trabecular bo
 2. Indicate the top region of the joint as the region of interest to get the subchondral bone plate (SBP).
 
 
-    
-  
-  
 ### Implementing the dual thresholding technique method:
 You can replicate the same protocol as the morphological escalator Method in CTAn using [this task list](https://github.com/evaherbst/Trabecular_Segmentation_Avizo/blob/main/dual thresholding-task-list.ctt), but you need to adapt some parameters shown in the following figure [2] based on your application. 
 ![error](./dual-thresholding.png "dual-thresholding-method")
 
 
-- If you have any questions about the workflow, or if anything in the guide is unclear, please create an Issue in this github repository or contact me at: fahimeh.azari *at* kuleuven.be 
+- If you have any questions about the workflow, or if anything in the guide is unclear, please create an Issue in this github repository or contact me at: <a href="fahimeh.azari@kuleuven.be">fahimeh.azari@kuleuven.be</a> 
 
 #### References:
 [1] Buie, Helen R., et al. "Automatic segmentation of cortical and trabecular compartments based on a dual threshold technique for in vivo micro-CT bone analysis." Bone 41.4 (2007): 505-515.
+<br>
 [2] Mys, Karen, et al. "Quantification of bone microstructure in the wrist using cone-beam computed tomography." Bone 114 (2018): 206-214.
+</div>
