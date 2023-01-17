@@ -1,5 +1,5 @@
 
-# How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
+### How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
 Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding technique [1]. 
 put the gif here
 
@@ -11,7 +11,7 @@ The process of automatically creating the trabecular volume of interest (VOI) in
 2- Inverse binarization is applied to the medulla cavity and cortical porosity, while excluding surrounding areas. 
 3- A series of opening and closing operations known as the "morphological escalator" are performed with a gradually increasing pixel radius to consolidate the binarized medullary space into a continuous volume, eliminating trabecular structures and removing cortical pores and peripheral artifacts. The resulting shape corresponds to the medulla and can be used as the trabecular VOI.
 
-Custom processing task list to delineate the boundary of medullary trabecular bone from surrounding cortical bone in the human distal femur in photon counting CT (PCCT) scans. For Tibia you need to adapt the task list to a new one. 
+Custom processing task list to delineate the boundary of medullary trabecular bone from surrounding cortical bone in the human distal femur in photon counting CT (PCCT) scans. 
 
 ### Implementing the morphological escalator Method:
 1. Download the CTAn custom processing [task list](./morphological-escalator-task-list.ctt) and move it to your data set. This will enable you to access the task list from CTAn.
@@ -23,10 +23,11 @@ Custom processing task list to delineate the boundary of medullary trabecular bo
 #### How to get subchondral bone plate:
 1. Implement the same method but in the coronal view to get the delineation of cortical bone.
 2. Indicate the top region of the joint as the region of interest to get the subchondral bone plate (SBP).
+Custom processing task list to delineate the boundary of  trabecular bone from surrounding cortical bone.
 
 
 ### Implementing the dual thresholding technique method:
-You can replicate the same protocol as the morphological escalator Method in CTAn using [this task list](https://github.com/evaherbst/Trabecular_Segmentation_Avizo/blob/main/dual thresholding-task-list.ctt), but you need to adapt some parameters shown in the following figure [2] based on your application. 
+You can replicate the same protocol as the morphological escalator Method in CTAn using [this task list](./dual%20thresholding-task-list.ctt), but you need to adapt some parameter is shown in the following figure [2] based on your application. 
 ![error](./dual-thresholding.png "dual-thresholding-method")
 
 
