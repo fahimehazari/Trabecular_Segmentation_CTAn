@@ -1,6 +1,6 @@
 
 ### How to automatically segment trabecular and cortical bone in CT scans, using CTAn.
-Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding technique [1]. 
+Developed by [Fahimeh Azari](https://github.com/fahimehazari) based on [morphological escalator](./Bruker-method-note.pdf) and dual thresholding techniques [1]. 
 
 
 ### Overview of two Methods:
