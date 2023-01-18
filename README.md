@@ -24,12 +24,15 @@ Custom processing task list to delineate the boundary of medullary trabecular bo
 1. Implement the same method but in the coronal view to get the delineation of cortical bone.
 2. Indicate the top region of the joint as the region of interest to get the SBP.
 <br>
-In Figure 1, you can see the segmentation of trabecular bone in the transaxial view and SBP in the coronal view.  
+In Figure 1, you can see the segmentation of trabecular bone in the transaxial view and SBP in the coronal view. 
+![error](./trabecular-and-SBP-delineation.png) "fig")
 ![error](./trabecular-and-SBP-delineation.png "morphological-escalator-method")
+Figure 1. Automatic determination of the trabecular bone and SBP based on morphological escalator method.
 
 ### Implementing the dual thresholding technique method:
 You can replicate the same protocol as the morphological escalator Method in CTAn using this [task list](./dual%20thresholding-task-list.ctt), but you need to adapt some parameter is shown in the following figure 2 [2] based on your application. 
 ![error](./dual-thresholding.png "dual-thresholding-method")
+Figure 2. Automatic determination of the trabecular bone based on dual thresholding method.
 
 
 - If you have any questions about the workflow, or if anything in the guide is unclear, please create an Issue in this github repository or contact me at: <a href="fahimeh.azari@kuleuven.be">fahimeh.azari@kuleuven.be</a> 
