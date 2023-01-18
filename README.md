@@ -31,7 +31,7 @@ Figure 1. Automatic determination of the trabecular bone and SBP based on morpho
 
 ### Implementing the dual thresholding technique method:
 You can replicate the same protocol as the morphological escalator Method in CTAn using this [task list](./dual%20thresholding-task-list.ctt), but you need to adapt some parameter is shown in the following figure 2 [2] based on your application. 
-![error](./dual-thresholding.PNG "dual-thresholding-method")
+![error](./dual-thresholding.png "dual-thresholding-method")
 Figure 2. Automatic determination of the trabecular bone based on dual thresholding method.
 
 
