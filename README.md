@@ -25,7 +25,7 @@ Custom processing task list to delineate the boundary of medullary trabecular bo
 2. Indicate the top region of the joint as the region of interest to get the SBP.
 <br>
 In Figure 1, you can see the segmentation of trabecular bone in the transaxial view and SBP in the coronal view. 
-![error](./trabecular-and-SBP-delineation.png) "fig")
+
 ![error](./trabecular-and-SBP-delineation.png "morphological-escalator-method")
 Figure 1. Automatic determination of the trabecular bone and SBP based on morphological escalator method.
 
